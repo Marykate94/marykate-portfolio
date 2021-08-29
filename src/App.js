@@ -3,6 +3,8 @@ import React from 'react';
 import './App.css';
 import Nav from './components/Nav';
 import About from './components/About';
+import Contact from './components/Contact';
+import Project from './components/Project';
 
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <Nav></Nav>
       <main>
             <About></About>
+            <Contact></Contact>
+            <Project></Project>
       </main>
     </div>
   );
