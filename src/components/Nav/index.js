@@ -17,7 +17,7 @@ function Nav(props) {
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#Projects" onClick={() => {props.setCurrentPage("Projects")}}>Projects <span class="sr-only"> </span></a>
+        <a class="nav-link" href="#Project" onClick={() => {props.setCurrentPage("Project")}}>Projects <span class="sr-only"> </span></a>
       </li>
 
       <li class="nav-item">

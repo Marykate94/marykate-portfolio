@@ -5,6 +5,9 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
 import Project from './components/Project';
+import Footer from './components/Footer';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 function App() {
@@ -29,7 +32,9 @@ function App() {
 
 
       {renderPage()}
+      <Footer></Footer>
     </main>
+
   );
 }
 
