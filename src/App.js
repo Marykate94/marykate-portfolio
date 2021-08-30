@@ -16,6 +16,8 @@ function App() {
   function renderPage() {
     if(currentPage == "About") {
       return <About />;
+    } else if(currentPage == "Project") {
+      return <Project />;
     } else  if(currentPage == "Contact") {
       return <Contact />;
     }
