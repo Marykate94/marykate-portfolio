@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import React from 'react';
+import React, { useState} from 'react';
 import './App.css';
 import Nav from './components/Nav';
 import About from './components/About';
@@ -8,16 +8,28 @@ import Project from './components/Project';
 
 
 function App() {
+
+  // const currentPage = "Contact";
+
+  const [currentPage, setCurrentPage] = useState("About")
+
+  function renderPage() {
+    if(currentPage == "About") {
+      return <About />;
+    } else  if(currentPage == "Contact") {
+      return <Contact />;
+    }
+  }
+
   return (
-    <div>
-      <Nav></Nav>
-      <main>
-            <About></About>
-            <Contact></Contact>
-            <Project></Project>
-      </main>
-    </div>
+    <main>
+      <Nav setCurrentPage={setCurrentPage} />
+
+
+      {renderPage()}
+    </main>
   );
 }
 
 export default App;
+

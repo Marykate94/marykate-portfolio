@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import React from 'react';
 
-function Nav() {
+function Nav(props) {
   return (
     <header >
         <h2>
@@ -9,18 +8,23 @@ function Nav() {
                 <span role="img" aria-label="globe">🌍</span>Marykate's Portfolio
             </a>
             <a href="#about">
-               Marykate Smith
+               About Me
             </a>
           <nav>
-            <a href="#project">
-              Projects
-            </a>
-            <a href="#contact">
-              Contact
-            </a>
-            <a href="Resume">
-              Resume
-            </a>
+          <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#About" onClick={() => {props.setCurrentPage("About")}}>About <span class="sr-only"></span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Projects" onClick={() => {props.setCurrentPage("Projects")}}>Projects <span class="sr-only"> </span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Contact"  onClick={() => {props.setCurrentPage("Contact")}}>Contact</a>
+        <link to={"./Contact"}></link>
+      </li>
+    </ul>
           </nav>
         </h2>
 
