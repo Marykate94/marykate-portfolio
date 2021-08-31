@@ -16,7 +16,7 @@ function Resume() {
           </ul>
 
           <a
-            href=""
+            href="docs/MarykateSmithResume (1).pdf"
             class="link"
           >
             View my Resume
