@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import React, { useState} from 'react';
 import './App.css';
-import Nav from './components/Nav';
+// import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
 import Project from './components/Project';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
+import Header from './components/Header';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -31,7 +32,7 @@ function App() {
 
   return (
     <main>
-      <Nav setCurrentPage={setCurrentPage} />
+      <Header setCurrentPage={setCurrentPage} />
 
 
       {renderPage()}

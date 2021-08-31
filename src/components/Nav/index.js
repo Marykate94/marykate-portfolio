@@ -4,12 +4,12 @@ function Nav(props) {
   return (
     <header >
         <h2>
-            <a href="/">
+            {/* <a href="/">
                 <span role="img" aria-label="globe">🌍</span>Marykate's Portfolio
             </a>
             <a href="#about">
                About Me
-            </a>
+            </a> */}
           <nav>
           <ul class="navbar-nav">
       <li class="nav-item active">

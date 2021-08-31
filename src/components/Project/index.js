@@ -6,6 +6,7 @@ import projects from "../../project.json";
   export default function Project(props) {
     return (
       <section id="projects">
+        <h2 className="top-title">Projects</h2>
         <div>
           <div>
             {projects.map((project) => (
