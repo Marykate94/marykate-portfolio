@@ -1,28 +1,9 @@
 import React from "react";
 // import Image from "../../assets/images/falconry-blog.png";
 import projects from "../../project.json";
-// export const projects = [
-//     {
-//       id: 1,
-//       title: "Falconry Blog",
-//       subtitle: "JavaScript, Handlebars, CSS",
-//       description:
-//         "A blog about Falconry",
-//       image: "../../assets/images/falconry-blog.png",
-//       link: "https://falconry-blog.herokuapp.com/",
-//     },
-//     {
-//       id: 2,
-//       title: "Transley Notes",
-//       subtitle: "JavaScript, HTML and CSS",
-//       description:
-//         "Note taker application",
-//       image: "../images/transley-notes.png",
-//       link: "https://transley-notes.herokuapp.com",
-//     },
-//   ];
 
-  export default function Project() {
+
+  export default function Project(props) {
     return (
       <section id="projects">
         <div>
@@ -34,7 +15,7 @@ import projects from "../../project.json";
                 >
                 <div>
                   <img
-                    alt="project-images"
+                    alt={project.title}
         
                     src={project.image}
                   />

@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Falconry-blog",
-        "image": "../../assets/images/falconry-blog.png",
+        "image": "https://i.pinimg.com/originals/49/3b/e9/493be967e20613040fc40ba3a511dfa5.png",
         "github": "https://github.com/Marykate94/falconry-blog",
         "link": "https://falconry-blog.herokuapp.com/",
         "subtitle": "JavaScript, Handlebars, CSS"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Transley Notes",
-        "image": "../../assets/images/transley-notes.png",
+        "image": "https://st.depositphotos.com/1875497/3781/i/600/depositphotos_37810929-stock-photo-books-on-white.jpg",
         "github": "https://github.com/Marykate94/transley-notes",
         "link": "https://transley-notes.herokuapp.com",
         "subtitles": "JavaScript, HTML and CSS"
