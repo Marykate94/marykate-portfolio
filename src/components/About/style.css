@@ -1,0 +1,10 @@
+.about {
+    position: relative;
+}
+
+.bio {
+    position: absolute;
+    top: 30%;
+    left: 75px;
+    background-color: white;
+}

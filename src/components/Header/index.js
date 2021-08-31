@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import Nav from '../Nav';
+import Navigation from '../Nav';
 
 function Header(props){
 
 
 
     return(
-        <div className = 'header'>
+        <div className = 'header text-center'>
             <h1>
                 Marykate Smith
             </h1>
-            <Nav setCurrentPage={props.setCurrentPage}/>
+            <Navigation setCurrentPage={props.setCurrentPage}/>
         </div>
     )
 
