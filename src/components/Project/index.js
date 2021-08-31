@@ -1,6 +1,7 @@
 import React from "react";
 // import Image from "../../assets/images/falconry-blog.png";
 import projects from "../../project.json";
+import { Card, Button } from 'react-bootstrap';
 
 
   export default function Project(props) {
@@ -10,27 +11,17 @@ import projects from "../../project.json";
         <div>
           <div>
             {projects.map((project) => (
-              <a
-                href={project.link}
-                key={project.id}
-                >
-                <div>
-                  <img
-                    alt={project.title}
-        
-                    src={project.image}
-                  />
-                  <div>
-                    <h2>
-                      {project.subtitle}
-                    </h2>
-                    <h1>
-                      {project.title}
-                    </h1>
-                    <p>{project.github}</p>
-                  </div>
-                </div>
-              </a>
+          <Card style={{ width: '18rem' }}>
+          <Card.Img variant="top" src={project.image} alt={project.title} />
+           <Card.Body>
+             <Card.Title>{project.title}</Card.Title>
+              <Card.Text>
+                {project.subtitle}
+             </Card.Text>
+           <Button variant="primary" href={project.link}>Visit Site</Button>
+           <Button variant="secondary" href={project.github}>Github</Button>
+          </Card.Body>
+        </Card>
             ))}
           </div>
         </div>
