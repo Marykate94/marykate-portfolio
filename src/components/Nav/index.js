@@ -24,6 +24,11 @@ function Nav(props) {
         <a class="nav-link" href="#Contact"  onClick={() => {props.setCurrentPage("Contact")}}>Contact</a>
         <link to={"./Contact"}></link>
       </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Resume"  onClick={() => {props.setCurrentPage("Resume")}}>Resume</a>
+        <link to={"./Resume"}></link>
+      </li>
     </ul>
           </nav>
         </h2>

@@ -6,6 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Project from './components/Project';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -23,6 +24,8 @@ function App() {
       return <Project />;
     } else  if(currentPage == "Contact") {
       return <Contact />;
+    } else  if(currentPage == "Resume") {
+      return <Resume />;
     }
   }
 

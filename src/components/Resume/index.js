@@ -16,7 +16,7 @@ function Resume() {
           </ul>
 
           <a
-            href="docs/MarykateSmithResume (1).pdf"
+            href="https://github.com/Marykate94/marykate-portfolio/blob/develop/docs/MarykateSmithResume%20(1).pdf"
             class="link"
           >
             View my Resume
