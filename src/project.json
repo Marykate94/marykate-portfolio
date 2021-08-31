@@ -14,6 +14,30 @@
         "github": "https://github.com/Marykate94/transley-notes",
         "link": "https://transley-notes.herokuapp.com",
         "subtitle": "JavaScript, HTML and CSS"
+    },
+    {
+        "id": 3, 
+        "title": "Easics Planner",
+        "image": "https://makinglemonadeblog.com/wp-content/uploads/2016/08/free-printable-planners-daily-plan-organization-day-750x500.jpg",
+        "github": "https://github.com/Marykate94/easics-planner",
+        "link": "https://marykate94.github.io/easics-planner/",
+        "subtitle": "JavaScript, HTML and CSS"
+    },
+    {
+        "id": 4, 
+        "title": "What I Had For Dinner",
+        "image": "https://tnimage.s3.hicloud.net.tw/photos/2019/11/27/1574848925-5dde499d3c2ee.jpg",
+        "github": "https://github.com/JillianA328/whatihadfordinner",
+        "link": "https://whatihadfordinner.herokuapp.com/",
+        "subtitle": "JavaScript,Express, Animate, MySQL2, Handlebars"
+    }, 
+    {
+        "id": 5, 
+        "title": "What's For Dinner",
+        "image": "https://static9.depositphotos.com/1007301/1144/i/950/depositphotos_11441413-stock-photo-question-mark-made-from-3d.jpg",
+        "github": "https://github.com/JillianA328/whats-for-dinner",
+        "link": "https://jilliana328.github.io/whats-for-dinner/",
+        "subtitle": "Bulma, JQuery, CSS, HTML"
     }
     
 ]

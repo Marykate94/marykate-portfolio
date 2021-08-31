@@ -2,6 +2,7 @@ import React from "react";
 // import Image from "../../assets/images/falconry-blog.png";
 import projects from "../../project.json";
 import { Card, Button } from 'react-bootstrap';
+import './style.css';
 
 
   export default function Project(props) {
@@ -9,7 +10,7 @@ import { Card, Button } from 'react-bootstrap';
       <section id="projects">
         <h2 className="top-title">Projects</h2>
         <div>
-          <div>
+          <div className="card">
             {projects.map((project) => (
           <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src={project.image} alt={project.title} />
