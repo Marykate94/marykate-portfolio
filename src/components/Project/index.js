@@ -10,7 +10,7 @@ import './style.css';
       <section id="projects">
         <h2 className="top-title">Projects</h2>
         <div>
-          <div className="card">
+          <div class="d-flex justify-content-between">
             {projects.map((project) => (
           <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src={project.image} alt={project.title} />
