@@ -8,7 +8,7 @@ import './style.css';
   export default function Project(props) {
     return (
       <section id="projects">
-        <h2 className="top-title">Projects</h2>
+        <h2 className="top-title">Portfolio</h2>
         <div>
           <div class="d-flex justify-content-between">
             {projects.map((project) => (
