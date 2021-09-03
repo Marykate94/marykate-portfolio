@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/marykate-portfolio/static/css/main.b20eb0c0.chunk.css",
+    "main.js": "/marykate-portfolio/static/js/main.e3bd240f.chunk.js",
+    "main.js.map": "/marykate-portfolio/static/js/main.e3bd240f.chunk.js.map",
+    "runtime-main.js": "/marykate-portfolio/static/js/runtime-main.2c096f2b.js",
+    "runtime-main.js.map": "/marykate-portfolio/static/js/runtime-main.2c096f2b.js.map",
+    "static/css/2.818011ed.chunk.css": "/marykate-portfolio/static/css/2.818011ed.chunk.css",
+    "static/js/2.6aae349e.chunk.js": "/marykate-portfolio/static/js/2.6aae349e.chunk.js",
+    "static/js/2.6aae349e.chunk.js.map": "/marykate-portfolio/static/js/2.6aae349e.chunk.js.map",
+    "static/js/3.de08a664.chunk.js": "/marykate-portfolio/static/js/3.de08a664.chunk.js",
+    "static/js/3.de08a664.chunk.js.map": "/marykate-portfolio/static/js/3.de08a664.chunk.js.map",
+    "index.html": "/marykate-portfolio/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/marykate-portfolio/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.b20eb0c0.chunk.css.map": "/marykate-portfolio/static/css/main.b20eb0c0.chunk.css.map",
+    "static/js/2.6aae349e.chunk.js.LICENSE.txt": "/marykate-portfolio/static/js/2.6aae349e.chunk.js.LICENSE.txt",
+    "static/media/cover-image2.7b4af1ca.jpg": "/marykate-portfolio/static/media/cover-image2.7b4af1ca.jpg",
+    "static/media/logo.6ce24c58.svg": "/marykate-portfolio/static/media/logo.6ce24c58.svg",
+    "static/media/profile-photo2.3e443139.jpg": "/marykate-portfolio/static/media/profile-photo2.3e443139.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c096f2b.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.6aae349e.chunk.js",
+    "static/css/main.b20eb0c0.chunk.css",
+    "static/js/main.e3bd240f.chunk.js"
+  ]
+}
