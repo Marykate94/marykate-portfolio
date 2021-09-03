@@ -1,0 +1,17 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    font: bold;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.content {
+    width: 40%;
+}
