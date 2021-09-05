@@ -6,7 +6,6 @@
   ## Table of Contents
   - [Description](#description)
   - [Usage](#usage)
-  - [Tests](#tests)
   - [Questions](#questions)
 
   ## Usage
