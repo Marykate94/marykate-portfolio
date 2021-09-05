@@ -38,6 +38,14 @@
         "github": "https://github.com/JillianA328/whats-for-dinner",
         "link": "https://jilliana328.github.io/whats-for-dinner/",
         "subtitle": "Bulma, JQuery, CSS, HTML"
+    },
+    {
+        "id": 6, 
+        "title": "Future Project #6",
+        "image": "https://thumbs.dreamstime.com/b/future-word-steps-yellow-paper-wooden-arrow-black-grunge-background-131219311.jpg",
+        "github": "https://github.com/JillianA328/whats-for-dinner",
+        "link": "www.google.com",
+        "subtitle": "Bulma, JQuery, CSS, HTML"
     }
     
 ]
