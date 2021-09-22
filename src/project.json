@@ -41,11 +41,11 @@
     },
     {
         "id": 6, 
-        "title": "Future Project #6",
+        "title": "Be Our Guest",
         "image": "https://thumbs.dreamstime.com/b/future-word-steps-yellow-paper-wooden-arrow-black-grunge-background-131219311.jpg",
-        "github": "https://github.com/JillianA328/whats-for-dinner",
-        "link": "www.google.com",
-        "subtitle": "Bulma, JQuery, CSS, HTML"
+        "github": "https://github.com/JillianA328/be-our-guest",
+        "link": "https://be-our-guest.herokuapp.com/",
+        "subtitle": "React, graphql, Bootstrap"
     }
     
 ]
